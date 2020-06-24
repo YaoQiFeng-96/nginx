@@ -25,4 +25,7 @@
 //日志输出路径
 #define NGX_ERROR_LOG_PATH      "error.log"
 
+#define NGX_PROCESS_MASTER  0
+#define NGX_PROCESS_WORKER  1
+
 #endif
